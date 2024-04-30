@@ -1,0 +1,74 @@
+/* 1) Element selector
+2) Id selector
+3) class Selector */
+
+/* Element Selector it will add the css to all p tag  */
+
+h1{
+    color: yellow;
+}
+
+p{
+    color:red;
+}
+
+
+/* As all p tag were red from the above  but if we want
+to change css of particular element we use id and for defining its css 
+we use # */
+
+
+#p3{
+    color: green;
+}
+
+/* 
+there is some senario arise where the same style require to 
+many elemnts but not all so if we add Id to them , then we have to create
+css for them diifferntly for the same styling so for this we use class 
+it will apply same styling belong to that class
+it is denoted by . */
+
+
+.blue-text{
+    color: blue;
+}
+
+.underline-h{
+    text-decoration: underline;
+}
+
+/* we can also use id and class together */
+/* here we taking color from class(blue-text) and font size from id(h)  */
+#h{
+    color: pink;
+    font-size: 50px;
+}
+
+
+/* IMP POINTS */
+
+/* 
+we define only one id that elment and cannot repeat
+the name of id for that page */
+
+/* where class can be define for multiple element  */  
+
+/* we can also give multiple class for same element by ging space   eg - underline-h */
+
+
+/* priority of applying selector when all the selctors are present in element  */
+/* eg h1 tag in 4_indem.html */
+
+/* id > class > element   */
+
+/* if we define same id twice with differnt css property 
+refer below then below is last one so this will be applied same 
+for class and element */
+
+
+/* smae id define above also */
+#h{
+    color: yellow;
+    font-size: 50px;
+}

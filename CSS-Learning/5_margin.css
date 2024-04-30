@@ -1,0 +1,27 @@
+/* space outside border and border se dusre elemnent ka space  is margin */
+body{
+    border: 5px dotted black; 
+}
+
+.div1{
+    border: 1px solid red;
+    padding: 25px 50px 30px 70px;
+}
+
+#marg{
+    /* margin-top: 50px;
+    margin-bottom: 20px;
+    margin-right: 10%;
+    margin-left:60px ; */
+
+    /* margin: 25px 12px 46px 60px; */
+
+    /* we can also use minus in margin  */
+    /* margin: -25px 12px 46px 60px; */
+
+    /* it will center the div  */
+    width: 200px;
+    margin:20px auto;
+
+    
+}

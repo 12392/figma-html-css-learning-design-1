@@ -1,0 +1,30 @@
+/* overflow matalb jab content zayada hozae container tab usko kaise deal kare  */
+
+#overflow{
+    background-color: whitesmoke;
+    border:  1px solid red;
+    width: 500px;
+    height: 300px;
+
+    /* By default */
+    /* content border ke bahr dikhe ga  */
+    /* overflow: visible; */
+    
+    /* content border ke bahr nhi dikhe ga  */
+    /* overflow: hidden; */
+
+    /* content border ke bahr nhi dikhe ga aur scroll karke pura dikhe ga bhi  */
+    /* overflow: scroll; */
+/* 
+    upar wale me x-axis wala scrool aur y-axis wala 
+    scrool dono dikhe ga toh useme se koi ek use karne ke */
+    /* overflow-x: hidden;
+    overflow-y: scroll; */
+/* 
+    agar humara dymanic content ho kabhi zarrot pade scrool ki aur kabhi nhi 
+    toh yeh use kare */
+    /* ye sab kuch khud se decide kar lega  */
+    overflow: auto;
+
+
+}

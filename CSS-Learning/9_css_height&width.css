@@ -1,0 +1,24 @@
+body{
+    border: 1px solid red;
+    height: 1000px;
+}
+
+#div1{
+    background-color: blueviolet;
+    
+    /* height:500px;
+    width:500px ; */
+    
+    height:50%;
+    /* percentage humesha parent ke hisab se leta h  */
+    width: 70% ;
+
+    /* set thershold  */
+    /* itni toh rahegi */
+    
+    max-width: 500px ;
+    max-height: 300px ; 
+    
+    /* min-width: 30%;
+    min-height: 10%; */
+} 

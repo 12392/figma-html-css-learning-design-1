@@ -1,0 +1,64 @@
+/* Html mai koi bhi element ek rectangular box hota hai  
+woh rectangular box kis tarike se behave karega woh depend karta hai
+display ki property ke*/
+
+/* Display ki properties */
+/* Block 
+inline
+inline-block
+none */
+
+/* Block aur inline default mai mill skate h  */
+
+/* Block woh element puri width gher lega
+div 
+p
+h1 
+form   etc*/
+
+/* inline  jiti zarrurat utna space
+a
+img
+span etc
+*/
+
+
+/* Difference between block/inline/inline-block */
+/* Block 
+1 New line se start 
+2 full width 
+3 height and width
+
+Inline
+1 not New line se start 
+2 not full width 
+3 no height and width
+
+inline-block
+1 not New line se start 
+2 not full width 
+3 height and width */
+
+.display{
+    border: 1px solid red;
+    height: 100px;
+    width: 50%;
+
+    /* isko inline mai karne ke liye  */
+    /* isme ap ye dekhenge ki yeh height width nhi le raha h upar wale */
+    /* display: inline; */
+
+    /* isko inline-block mai karne ke liye  */
+    /* isme ap ye dekhenge ki yeh height width  le raha h upar wale */
+    display: inline-block;
+}
+
+#div1{
+    /* div1 hide ho zaega  */
+    
+    /* HTML se hat zaega */
+    /* display: none; */
+    
+    /* Html mai rahe ga  */
+    /* visibility: hidden; */
+}

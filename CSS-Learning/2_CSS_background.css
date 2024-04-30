@@ -1,0 +1,50 @@
+p{
+    color: black;
+}
+
+#bg{ 
+    /* background-color: yellow; */
+
+    /* background path  */
+    background-image: url("./2_CSS_background_bg.jpg");
+
+    /* background repeat  */
+    background-repeat: no-repeat;
+
+    /* background position  */
+    /* background-position: center center; */
+    /* background-position: 50px 100px; */
+    /* background-position: 5% 10%; */
+
+    /* background size  */
+    /* background-size: 500px 700px; */
+    background-size: 100% 70%;
+    
+    /* background-size: 100% 100% ; */
+    /* fill karta h pr image ko keech ke usko kharab kr deta h 
+    agar image resolution shi na ho toh */
+    
+    /* background-size: cover;  */
+    /* fiil karta h pr image kat deta h  */
+    /* ye tab use karna jab hume image ka ratio kharab nhi karna ho  */
+    
+    /* background-size: contain; */
+    /* fill karta h pr image ke according image choti hogi toh
+    choti dikhaega */
+    /* image ka size aur div ka size smae hona chaiye tab shi se karta h */
+
+
+    /* background still but content move  */
+    background-attachment: fixed;
+ }
+
+ /* using multiple image in background  */
+
+/* 
+#bg{
+    background-image: url("6_transparent.png") ,url("6_bg.jpg");
+    background-repeat: no-repeat;
+    background-color: yellow;
+    background-position: left top , right bottom;
+} */
+

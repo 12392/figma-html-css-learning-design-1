@@ -1,0 +1,30 @@
+#border{
+
+    /* type of border */
+    /* border-style: dashed;
+    border-style: dotted;
+    border-style: double;
+    border-style: groove; */
+    /* border-style: outset; */
+
+    /* All border sides differnt  */
+    /* border side -> top right bottom left same for other property  */
+    
+    /* border-style: solid dashed none dotted; */
+    /* border-color: red yellow gold green; */
+
+    /* for particular side of border  */
+    /* border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color:red ;
+    border-top-left-radius:10px */
+    
+    
+    border-style: solid;
+    border-width: 5px 10px;
+    border-color: red;
+
+    /* border curve */
+    border-radius: 10px;
+    
+}

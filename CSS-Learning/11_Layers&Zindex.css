@@ -1,0 +1,77 @@
+
+/* below css will generate layers like structre 
+green ke upar blue aur blue ke upar black*/
+
+/* Z index aise property hoti jime woh decide karta h kon sa elemnt upar rahe ga 
+ jiska number zyada woh upar 
+ 
+ z index keval position relative fixed aur absolute ke sath kam karti h
+
+ z index mai koi max aur min limit nhi hoti
+ */
+
+#parent{
+    /* border: 1px solid red; */
+    padding: 20px;
+    width: 50%;
+    margin: 100px;
+
+    position: relative;
+
+
+}
+
+#one{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+
+    /* teeno block ko horizontal karne ke liye  */
+    display: inline-block;
+    position: relative;
+
+    /* z index  */
+    /* z-index: 1; */
+
+    z-index: 2;
+    
+}
+
+#two{
+    width: 100px;
+    height: 100px; 
+    background-color:blue;
+    
+    /* teeno block ko horizontal karne ke liye  */
+    display: inline-block;
+    
+    position: relative;
+    top: 50px;
+    left: -50px;
+    
+    /* z index  */
+    /* z-index: 2; */
+
+    z-index: 3;
+    
+}
+
+#three{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    
+    /* teeno block ko horizontal karne ke liye  */
+    display: inline-block;
+
+    position: relative;
+    top: 100px;
+    left: -100px;
+    
+    /* z index  */
+    /* z-index: 3; */
+
+    z-index: 1;
+    
+}
+

@@ -1,0 +1,27 @@
+#content{
+width: 70%;
+background-color: green;
+height: 200px;
+
+float: left;
+}
+
+#sidebar{
+    width: 30%;
+    background-color: indianred;
+    /* height: 200px; */
+
+    /* jab hum iski height 150px karenge 
+    waise hi fotter uske nneche aa jaega ku ki uisme float laga h
+    aur as new line use treat kare ga toh usse bachne ke liye hum
+    clear both use kar sakte h footer ke liye*/
+    height: 150px;
+    
+    float: left;
+}
+
+#footer{
+    background-color: yellowgreen;
+
+    clear: both;
+}

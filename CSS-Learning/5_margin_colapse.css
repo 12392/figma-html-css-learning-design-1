@@ -1,0 +1,21 @@
+/* space outside border and border se dusre elemnent ka space  is margin */
+
+.div1{
+    border: 1px solid red;
+    padding: 25px 50px 30px 70px;
+}
+
+/* In below we are colapsing marging col div askig for margin 30px from top
+and marg div asking for margin bottom 50px both are targetting same area so
+so the maximum pixel will show result in this   margin-top: 50px; will show its result */
+
+
+/* it only happen in top and bottom */
+
+#marg{
+    margin-top: 50px;
+}
+
+#col{
+    margin-bottom: 30px;
+}

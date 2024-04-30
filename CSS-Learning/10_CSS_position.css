@@ -1,0 +1,105 @@
+/* Types of position 
+1) Static(default) -> normal flow
+2) Relative
+3) fixed
+4) absolute*/
+
+/* position property  
+jo ki sirf Realtive , fixed, aboslute ke sath work karengi
+1) Top
+2) bottom 
+3) left
+4) Right*/
+
+body{
+    height: 1000px;
+}
+
+#parent{
+    border: 1px solid red;
+    padding: 20px;
+    width: 50%;
+    margin: 100px;
+
+    /* 
+    parent wale ki position relative define kar rahe jise 
+    blue #two wala div parent wale div ke according position le 
+    abolute wale example
+    */
+
+    position: relative;
+
+}
+
+#one{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+
+    /* teeno block ko horizontal karne ke liye  */
+    display: inline-block;
+}
+
+#two{
+    width: 100px;
+    height: 100px; 
+    background-color:blue;
+    
+    /* teeno block ko horizontal karne ke liye  */
+    display: inline-block;
+
+    /* 1)--------RELATIVE--------- */
+    /* Apni current zagh se position lega  */
+    /* position: relative;
+    top: 50px;
+    left: 50px; */
+    /* upar wale top left se woh apni current position 50px 50px */
+    /* change kr dega pr apni purani zagh mai kisi ko ane bhi nhi dega */
+
+    
+    /* 2)--------Absolute--------- */
+    /* Absolute position ye check karti h ki uske nearest parent mai koi
+    postion property define hai ki nai woh uske hisab se change krta h    
+    
+    Agar koi position wala parent nhi milega toh woh bodyt ke pas chala jaega
+    aur ukse according position move karega */
+    
+    /* position: absolute; */
+    
+    /* bina top bottom define kare back wala div blue ke neecha aa jega
+    kuki ab blue wala div body pe aa gaya h 
+    
+    jab hum top bottom define kr denge tab hume black wala 
+    dikh jaega*/
+    
+    /* top: 0px;
+    left: 0px; */
+
+
+    /* 3)--------FIXED--------- 
+    Koi bhi cheez viewport ke according fixed rakhta hai
+    jab hum position fixed karte hai toh ye aboslute postion ki tarh apni 
+    position chodh deta h jiski wajh se  back wala div blue ke neecha aa jata h
+    
+    jab hum top bottom define kr denge tab hume black wala 
+    dikh jaega
+    
+    fixed smajhne ke liye body ko 1000px kr diya jise ek scrrolbar aa gaya kuki body badi hogai
+    aur #two div ko shift kr dia top bottom define krke
+    toh jab hum scrool karenge tab blue wala dikhta rahhega aur green aur balck wale div scrool ho ke
+    upar chale jenge 
+    */
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+#three{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    
+    /* teeno block ko horizontal karne ke liye  */
+    display: inline-block;
+}
+

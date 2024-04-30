@@ -1,0 +1,59 @@
+#text{
+    width: 500px ;
+    border: 1px solid black;
+
+    /* change text color  */
+    color: blue;
+
+    /* text kidhar rahega */
+    /* text-align: right; */
+    /* text-align: center; */
+    /* text-align: justify; */
+
+    /* text direction */
+    /* help in language like urdu  */
+    /* direction: rtl; */
+
+    /* text ko decorate karne ke liya like underline, overline etc  */
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+
+    /* text transform matlab uppercase lowercase etc  */
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    /* text-transform: capitalize; */
+
+    /* line ke beech gap  */
+    /* line-height: 30px; */
+
+    /* starting word se pehle gap  */
+    /* text-indent: 20px; */
+
+    /* word ke andar letter ke beech sapce  */
+    /* letter-spacing: 10px; */
+
+    /* words spacing  */
+    /* word-spacing: 20px; */
+
+    /* extra space in paragrah and extaline in paragrah */
+    /* white-space: pre ; */
+    
+    /* all words in one line  */
+    /* white-space: nowrap; */
+
+    /* koi word ko length conatiner se badi ho zae toh  */
+    /* word-wrap: break-word; */
+
+    /* agar hume vertical likhna ho  */
+    /* writing-mode: vertical-lr; */
+
+}
+
+#shadow{
+    font-size: 70px;
+    
+    /* text mai shadow ke liye  */
+    /* below terminology horizontal vertical blur  */
+    text-shadow: 1px 10px 5px red;
+}

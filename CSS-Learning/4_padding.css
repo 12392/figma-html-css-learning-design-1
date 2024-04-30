@@ -1,0 +1,13 @@
+/* space between border and content is padding */
+
+#div1{
+    border: 1px solid red;
+    padding-top:50px ;
+    padding-bottom:20px ;
+    padding-right: 10%;
+    padding-left: 20%;
+
+    /* padding side -> top right bottom left same for other property  */
+    /* padding: 25px 50px 30px 70px; */
+
+}
