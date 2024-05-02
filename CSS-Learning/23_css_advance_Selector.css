@@ -1,0 +1,69 @@
+/* element selector */
+li{
+    color: red;
+}
+
+/* id selector */
+#list2{
+    color:black
+}
+
+
+/* class selector */
+.list5{
+    color: greenyellow;
+}
+
+
+/* pseudo class selector */
+a:hover{
+    color: aqua;
+}
+
+/* pseudo element selector  */
+p::first-line{
+    color: brown;
+}
+
+/* attrbute selector */
+a[href="https://www.google.com"]{
+    color: blueviolet;
+}
+/* input[type='password']{
+    color: red;
+} */
+
+/* universal Selector 
+/* ye bhut hi kam use hota zyada tar debug ke kam aata hai*/ 
+/* *{
+  border: 1px solid red;  
+} */
+
+/* div ke andar jo bhi a tag honge woh change ho zenge  */
+div a{
+    color: crimson;
+}
+
+
+/* direct-child 
+div ke andar koi bhi a tag change nhi hoga kuki woh dirct child nhi h
+is liye example mai ek dirct child ka link bana diya */
+div>a{
+    color: black;
+}
+
+/* just-sibling */
+/* div ka just sibimg ouside link is wajh se woh change ho gaya */
+div + a {
+    color: darkkhaki;
+}
+
+/* normal sibling */
+div ~ a{
+    color: darkblue;
+}
+
+/* and selctor matlab ek se  zayada ceheez ek sath selct karlo */
+h1 , p {
+    color: green;
+}

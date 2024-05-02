@@ -1,0 +1,23 @@
+li:first-child{
+    color: red;
+}
+
+li:last-child{
+    color: green;
+}
+
+/* we can also pass odd and even 
+and also create our own exprssion like 3n+1*/
+
+li:nth-child(4){ 
+    color: yellow;
+}
+
+/* neeche se 4th */
+li:nth-last-child(4){ 
+    color: violet;
+}
+
+input:focus{
+    border: 3px solid red;
+}

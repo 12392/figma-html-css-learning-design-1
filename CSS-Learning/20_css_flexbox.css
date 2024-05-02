@@ -1,0 +1,65 @@
+/* Refer video  */
+
+.flex-container{
+    background-color: indianred;
+    display: flex;
+
+    /* jaise tha waise hi rahega */
+    /* flex-direction: row; */
+
+    /* row reverse kr dia  */
+    /* flex-direction: row-reverse; */
+
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* agr hum flex child ke aur element daal denge toh woh width control kar lega  */
+    /* flex-wrap: nowrap; */
+
+    /* isme width control nhi karega niche daal dega */
+    /* flex-wrap: wrap; */
+
+    /* flex-wrap: wrap-reverse; */
+
+    /* short syntax */
+    /* flex-flow: row wrap; */
+
+    /* Andar ke child ko set karna ho  */
+    /* justify-content: left;  default zaisa ho hai */
+    /* justify-content: right; */
+    /* justify-content: center; */
+
+    /* sare elemnt ke around same space  */
+    /* justify-content: space-around; */
+    
+    /* space element ke beech adjust hoga */
+    /* justify-content: space-between; */
+
+    /* agar hum conatiner ki height bada denge toh child strch ho zaega */
+    height: 400px;
+    /* usko stretch hone se rokne ke liye */
+    /* align-items: center; */
+
+    /* items start mai aa jege  */
+    /* align-items: flex-start;  */
+    
+    flex-wrap: wrap;
+
+    /* by default */
+    /* align-content:stretch ;
+    
+    jo kam justify content horizontly karta tha ye vertical karta h*/
+
+    align-content: space-between;
+
+}
+ .flex-child{
+    background-color: wheat;
+    margin: 20px;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+
+    /* ye wali property flexbox karna h uske liye parent mai zana padega  */
+    /* display: inline-block; */
+ }

@@ -1,0 +1,25 @@
+/* gradient matlab do color ya do se zayada color jab smoothly mix kar jate h*/
+
+#div1{
+    height: 500px;
+    border: 1px solid red;
+
+    /* Gradient use karne liye  */
+    /* Linear Grdient */
+    background-image: linear-gradient(green , blue, red);
+
+    /* direction change karne ke liye */
+    /* background-image: linear-gradient(to right, green , blue, red); */
+    /* background-image: linear-gradient(to bottom right, green , blue, red); */
+    /* background-image: linear-gradient(120deg, green , blue, red); */
+
+    /* radial gradient */
+    /* background-image: radial-gradient(green , blue, red); */
+
+    /* By default radial gradient show eclipse we can also do it circle  */
+    /* background-image: radial-gradient(circle, green , blue, red);  */
+
+    /* kon sa color kitna space occupy karega */
+    /* background-image: radial-gradient(circle, green 20% , blue 30%, red 50%); */
+}
+

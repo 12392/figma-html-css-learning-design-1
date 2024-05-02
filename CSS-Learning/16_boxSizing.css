@@ -1,0 +1,26 @@
+#div1{
+
+    background-color: blueviolet;
+    width: 600px;
+    height: 200px;
+
+}
+#div2{
+    background-color: chocolate;
+    width: 600px;
+    height: 200px;
+    padding: 50px;
+    border: 10px solid black; 
+
+    /* content box ka matlab height aur width content
+    ko milega padding aur border upar se lega  */
+    
+    /* box-sizing: content-box; */
+    
+    /* border box mai border include karke jo height width hoga 
+    wo milega */
+
+    /* box-sizing: border-box; */
+}
+
+

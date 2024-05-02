@@ -1,0 +1,42 @@
+/* Layout example */
+
+.grid-container{
+    background-color: indianred;
+    padding: 20px;
+
+    /* grid mai covert karne liye  */
+    display: grid;
+
+    grid-template-areas: 
+    'header header header header header header'
+    'menu main main main right right'
+    'menu fotter fotter fotter fotter fotter';
+}
+
+.grid-item{
+    background-color: wheat;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#grid-1{
+    grid-area: header;
+}
+
+#grid-2{
+    grid-area: menu;
+}
+
+#grid-3{
+    grid-area: main;
+}
+
+#grid-4{
+    grid-area: right;
+}
+
+#grid-5{
+    grid-area: fotter;
+}

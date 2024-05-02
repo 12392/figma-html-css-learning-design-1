@@ -1,0 +1,50 @@
+#div1{
+    width: 70%;
+    float: left;
+    background-color: lawngreen;
+}
+
+#div2{
+ width: 30%;
+ float: left;
+ background-color: rosybrown;   
+}
+
+h1{
+    font-size: 80px;
+}
+
+
+/* jab koi screen width usko 768px ya use kam  milegi tab woh dono div kya change krna h hum kar sakte h  */
+@media screen and (max-width: 768px){
+    #div1{
+        width: 50%;
+    }   
+    
+    #div2{
+        width: 50%;
+       }
+}
+
+@media screen and (min-width: 400px) {
+    #div1{
+        width: 100%;
+    }   
+    
+    #div2{
+        width: 100%;
+        color: wheat;
+        background-color: black;
+       }
+}
+
+
+/* ye karne se image aur video responsive ho zate hai  */
+img{
+    width: 100%;
+    height: auto;
+}
+video{
+    width: 100%;
+    height: auto;
+}
