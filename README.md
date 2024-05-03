@@ -25,7 +25,15 @@ CSS (Completed topics)
 - The Box Model
 - Text Formatting and Fonts
 - CSS Layout (display, max-width, max-hight, position, z-index, overflow, float, inline-block)
--CSS Media Queries
+- CSS Media Queries
+- CSS Combinators
+- Pseudo-class and Pseudo-element
+- CSS Attr Selectors
+- CSS Forms
+- CSS Box Sizing
+- Gradients and Shadows
+- CSS Flex-box
+- CSS Grid
 
 
 Figma to HTML-CSS learning 
@@ -47,6 +55,21 @@ Topics Learned during figma
 
 
 Design 2 
+
+Sign Up Page for CasDas
+
+Topics Learned during figma
+- Css units
+- Css Layouts (Flex)
+- Css Flex Properties
+- Css Position (Relative, Position)
+- Css backgroung-image
+- Css selectors
+- usage of max-width, min-width
+- Google font usage
+- use meida query try to make it responsive
+
+Design 3 
 
 Sign Up Page for CasDas
 
