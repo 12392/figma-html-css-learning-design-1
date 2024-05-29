@@ -1,0 +1,607 @@
+:root {
+  --header-blue: #2874f0;
+  --white: #ffffff;
+  --background-color: #f1f3f6;
+}
+
+body{
+  padding: 0px;
+  margin: 0px;
+  background-color: var(--background-color);
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+/* header start */
+
+header{
+  /* border: 1px solid black; */
+  background-color: var(--header-blue);
+  max-height: 3.9em;
+}
+
+
+/* nav start */
+
+nav{
+  /* border: 1px solid yellow; */
+  display: flex;
+  align-items: center;
+  height: 3em;
+  width: 60%;
+  margin-inline:auto; 
+}
+
+
+/* Filpkart nav logo start */
+
+.flipkart-nav-img-conatiner{
+  /* border: 1px solid red; */
+  width: 8%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#flipkart-nav-img{
+  /* border: 1px solid black; */
+  height: 65%;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.explore-container{
+  /* border: 1px solid white; */
+  height: 35%;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  margin-top: -6%;
+  color: var(--header-blue);
+}
+
+.explore-container:hover{
+  color: var(--white);
+}
+
+#explore-p{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: italic;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    color: var(--white);
+}
+
+#plus-p{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+  color:  #eedc13;
+  margin-left: 3%;
+ }
+ 
+#plus-img{
+  /* border: 1px solid green; */
+  margin: 0%;
+  height: 55%;
+  width: 10%;
+}
+
+/* Filpkart nav logo end */
+
+
+/* search nav starts */
+
+.search-container{
+  /* border: 1px solid black; */
+  width: 50%;
+  height: 60%;
+  margin-left: 2%;
+}
+
+#nav-search-inp{
+  height: 100%;
+  width: 100%;
+  background-image: url('./images/search.svg');
+  background-repeat: no-repeat;
+  background-position:  98% 50%;
+  border: none;
+}
+
+#nav-search-inp::placeholder{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+/* serach nav ends */
+
+
+/* login button starts */
+
+
+.login-btn-container{
+  /* border: 1px solid black; */
+  height: 60%;
+  width: 11%;
+  margin-left: 10%;
+}
+
+#login-btn{
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+  color: var(--header-blue);
+}
+
+/* login button ends */
+
+
+/* more nav starts */
+
+.more-container{
+  /* border: 1px solid black; */
+  height: 60%;
+  width: 7%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.more-nav-p{
+  /* border: 1px solid red; */
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+  color: var(--white);
+  margin-left: 20%;
+}
+
+#more-arrow-img{
+  /* border: 1px solid yellow; */
+  height: 33%;
+  width: 12%;;
+  transform: rotate(270deg);
+  margin-top: 1%
+}
+
+#more-arrow-img:hover{
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+
+/* more nav ends */
+
+
+/* cart nav starts */
+
+.cart-container{
+  /* border: 1px solid; */
+  height: 60%;
+  width: 9%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+}
+
+
+#cart-img{
+  /* border: 1px solid green; */
+  width: 20%;
+  height: 63%;
+  margin-top: 1%;
+}
+
+.cart-nav-p{
+  /* border: 1px solid yellow; */
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+  color: var(--white);
+  margin-left: -30%
+}
+
+/* cart nav ends */
+
+
+/* nav ends */
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+/* category starts  */
+
+.category-conatiner{
+  /* border: 1px solid black; */
+  background-color: #ffffff;
+  max-height: 12vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-shadow: 2px 5px 5px #E6E8EF;
+  flex-shrink: 0;
+  /* overflow: auto; */
+}
+
+.category{
+  /* border: 1px solid black; */
+  width: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  flex-shrink: 0;
+  /* flex-wrap: wrap; */
+}
+
+.category-p{
+  /* border: 1px solid red; */
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 13px;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    display: flex;
+}
+
+.category-arrow-img{
+  /* border: 1px solid; */
+  width: 100%;
+  height: 100%;
+  margin-top: 15%;
+  /* background-color: black; */
+}
+
+.category-arrow-img:hover{
+  transform: rotate(180deg);
+}
+
+.category-arrow-container{
+  width: 1em;
+  height: 1em;
+}
+
+img{
+  /* border: 1px solid blue; */
+  height: 60%;
+  width: 50%;
+  margin-top: 10%;
+}
+
+
+/* category ends  */
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* Deal container start */
+
+.deals-container{
+  /* border: 1px solid black; */
+  max-height: 22em;
+  margin-top: 1%;
+  margin-inline: auto;
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.grid-style{
+  /* border: 1px solid black; */
+  background-color: var(--white);
+  box-shadow: 2px 5px 5px #E6E8EF;
+}
+
+/* Deal of the Day Section Starts */
+
+#deal-d1{
+  grid-column-start: 1;
+  grid-column-end: 9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1px;
+}
+
+.deal-d1-p{
+  /* border: 1px solid yellow; */
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 22px;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+  margin-right:70% ;
+}
+
+.deals-btn{
+  background-color: var(--header-blue);
+  color: var(--white);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    border: none;
+    /* border: 1px solid black; */
+    float: left;
+  text-align: center;
+}
+
+/* Deal of the Day Section Ends */
+
+
+/* Deals Image Section Starts */
+
+#deal-d2{
+  grid-column-start: 9;
+  grid-column-end: 11;
+
+  grid-row-start: 1 ;
+  grid-row-end: 6;
+
+  margin-left: 5%;
+}
+
+
+#deals-img{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+/* Deals Image Section ends */
+
+
+/* Deal card section starts */
+
+#deal-d3{
+  grid-column-start: 1;
+  grid-column-end: 9;
+
+  grid-row-start: 2;
+  grid-row-end: 6;
+}
+
+.deal-card-conatiner{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: auto;
+}
+
+.deal-card{
+  min-width: 15%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.deal-card > p{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.deal-card-product-p{
+  /* border: 1px solid black; */
+  text-overflow: ellipsis;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.deal-card-discount-p{
+  font-size: 12px;
+  font-weight: 500;
+  color: #89b37d;
+}
+
+.deal-card-offer-p{
+  /* border: 1px solid green; */
+  font-size: 12px;
+  font-weight: 500;
+  color: #a9a9a9;
+}
+
+.deal-card-img{
+  height: 150px;
+  width: 150px;
+}
+
+
+/* Deal card section ends */
+
+/* Deal container ends */
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+/* Books Music Container starts */
+
+
+.book-music-instrument-container{
+  min-height: 20em;
+  margin-top: 1%;
+  margin-inline: auto;
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(5, 1fr);  
+}
+
+
+/* Books Music Section starts  */
+
+#bmi-d1{
+  grid-column-start: 1;
+  grid-column-end: 9;
+  margin-bottom: 1px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1px;
+}
+
+.book-music-instrument-section{
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 85%;
+  height: 100%;
+  margin-top: 2%;
+  }
+  
+.size-btn{
+  height: 60%;
+  width: 7%;
+}
+
+/* Books Music Section ends  */
+
+
+/* card start */
+
+#bmi-d2{
+  grid-column-start: 1;
+  grid-column-end: 9;
+
+  grid-row-start: 2;
+  grid-row-end: 6;
+}
+
+
+/* card ends */
+
+/* .more-deal-btn{
+  border: 1px solid black;
+  display: inline;
+  width: 6%;
+  height: 65%;
+}
+.more-deal-p-container{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: space-between;
+} */
+
+/* Books Music Container ends */
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* Media Query starts */
+
+@media screen and (max-width: 450px) {
+  header{
+    height: 5em;
+  }
+  nav{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    /* display: flex; */
+    justify-content: space-evenly;
+  }
+
+  .search-container{
+    display: none;
+    /* flex-shrink: 0; */
+  }
+
+  .flipkart-nav-img-conatiner{
+    /* border: 1px solid red; */
+    height: 8em;
+    width: 8em;
+    margin: auto;
+  }
+  #plus-img{
+    /* border: 1px solid green; */
+    height: 20%;
+    width: 12%;
+  }
+
+  .login-btn-container{
+    width: 30%;
+    height: 40%;
+  }
+
+  .more-container{
+    /* border: 1px solid black; */
+    height: 30%;
+    width: 40%;
+  }
+
+  .cart-container{
+    /* border: 1px solid; */
+    height: 40%;
+    width: 30%;
+  }
+
+
+  .category-conatiner{
+    border: 1px solid;
+    overflow: auto;
+    /* flex-shrink: 0; */
+  }
+
+  .category{
+    /* border: 1px solid red; */
+    width: 30%;
+    /* flex-shrink: 0; */
+    /* overflow:auto ; */
+  }
+
+
+
+  
+  
+}

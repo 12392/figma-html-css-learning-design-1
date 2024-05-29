@@ -1,0 +1,12 @@
+
+{
+  "name": "Suryansh Gupta",
+  "age": 25,
+  "isAdmin": false,
+  "license": null,
+  "shop": ["food", "clothes", 1],
+  "myObj": {
+    "name": "JSON name",
+    "age": 45
+  }
+}
